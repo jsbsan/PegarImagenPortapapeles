@@ -13,6 +13,12 @@ Public Sub Form_Open()
   Endif
   'Print Application.path 'ruta donde esta el fichero ejecutbale .gambas
   'Print Application.Dir 'directorio donde se esta ejecutando el comando
+
+  'nota:
+  'crear un ejecutable tipo .gambas y colocarlo en una ruta donde esten los ficheros ejecutables
+  ' Los directorios donde estan los ejecutables, se pueden ver con el comando: echo $PATH
+  'en uno de ellos se copia el .gambas y ya estadisponible para cualquier directorio donde se llame el coamndo desde la terminal
+
   Me.Close
 
 End
