@@ -1,0 +1,18 @@
+' Gambas class file
+
+Public Sub Form_Open()
+
+  Dim picturetmp As New Picture
+
+  If InStr(Clipboard.format, "image") <> 0 Then
+    'cargo imagen en el picturebox1
+
+    picturetmp = Clipboard.Paste().picture
+    picturetmp.Save(Application.Dir & "/portapapeles.png")
+
+  Endif
+  'Print Application.path 'ruta donde esta el fichero ejecutbale .gambas
+  'Print Application.Dir 'directorio donde se esta ejecutando el comando
+  Me.Close
+
+End

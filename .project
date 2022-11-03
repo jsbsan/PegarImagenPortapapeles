@@ -1,0 +1,20 @@
+# Gambas Project File 3.0
+Title=PegarImagenPortapapeles
+Startup=FMain
+Version=0.0.5
+Component=gb.image
+Component=gb.gui.qt
+Component=gb.form
+TabSize=2
+Language=en_US
+Maintainer=jsbsan
+Address=jusabejusabe@gmail.com
+Url=https://jsbsan.blogspot.com/
+License=General Public License
+PackageName=pegarimagenportapapeles-0.0.5
+CreateEachDirectory=1
+Packager=1
+Systems=debian
+Menus=debian:"Applications/Office"
+Categories=debian:"Office"
+Groups=debian:"graphics"

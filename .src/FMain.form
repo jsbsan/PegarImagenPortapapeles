@@ -1,0 +1,9 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,53,45)
+  { PictureBox1 PictureBox
+    MoveScaled(1,1,51,43)
+    Border = Border.Plain
+  }
+}
